@@ -1,0 +1,27 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "Paul Diaz Dumont",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "memory-cache": "^0.2.0",
+    "mongoose": "^5.4.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "nodemon": "^1.18.9"
+  }
+}
